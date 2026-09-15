@@ -14,6 +14,7 @@ import { Footer } from "./components/Footer";
 import { Cursor } from "./components/Cursor";
 import { GrainOverlay } from "./components/GrainOverlay";
 import { ScrollProgress } from "./components/ScrollProgress";
+import { WhatsAppFloat } from "./components/WhatsAppFloat";
 import { LanguageProvider } from "./i18n/LanguageContext";
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       <Cursor />
       <GrainOverlay />
       <ScrollProgress />
+      <WhatsAppFloat />
       <Navigation />
       <main>
         <Hero />

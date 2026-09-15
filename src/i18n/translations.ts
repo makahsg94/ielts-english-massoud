@@ -153,6 +153,7 @@ export interface Translation {
       goals: Record<string, string>;
     };
   };
+  waFloat: { label: string; aria: string };
   footer: { brand: string; blurb: string; explore: string; contactLabel: string; rights: string; tagline: string };
 }
 
@@ -552,6 +553,10 @@ export const translations: Record<Lang, Translation> = {
           other: "Something else",
         },
       },
+    },
+    waFloat: {
+      label: "WhatsApp",
+      aria: "Message Massoud on WhatsApp",
     },
     footer: {
       brand: "IELTS & English with Massoud",
@@ -954,6 +959,10 @@ export const translations: Record<Lang, Translation> = {
           other: "شيء آخر",
         },
       },
+    },
+    waFloat: {
+      label: "واتساب",
+      aria: "كلم مسعود على واتساب",
     },
     footer: {
       brand: "IELTS والإنجليزي مع مسعود",
