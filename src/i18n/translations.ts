@@ -86,11 +86,9 @@ export interface Translation {
     title1: string;
     titleEm: string;
     desc: string;
-    items: { band: string; skill: string; note: string }[];
     galleryLabel: string;
     gallerySub: string;
     reportCaption: string;
-    over9: string;
   };
   test: {
     eyebrow: string;
@@ -359,17 +357,10 @@ export const translations: Record<Lang, Translation> = {
       eyebrow: "Student Results",
       title1: "Real students.",
       titleEm: "Real progress.",
-      desc: "Scores below are placeholder figures for the editorial layout. Verified student results and score screenshots will replace them as they become available.",
-      items: [
-        { band: "7.5", skill: "IELTS Overall", note: "Placeholder — replace with a verified score." },
-        { band: "8.0", skill: "IELTS Reading", note: "Placeholder — replace with a verified score." },
-        { band: "7.0", skill: "IELTS Speaking", note: "Placeholder — replace with a verified score." },
-        { band: "6.5", skill: "IELTS Writing", note: "Placeholder — replace with a verified score." },
-      ],
+      desc: "Verified student results straight from official report forms.",
       galleryLabel: "Verified score reports",
       gallerySub: "Student result screenshots",
       reportCaption: "Result report · {n}",
-      over9: "/ 9.0",
     },
     test: {
       eyebrow: "Interactive",
@@ -765,17 +756,10 @@ export const translations: Record<Lang, Translation> = {
       eyebrow: "نتائج الطلاب",
       title1: "طلاب حقيقيون.",
       titleEm: "تقدّم حقيقي.",
-      desc: "الأرقام أدناه بيانات مؤقتة لشكل التصميم. النتائج الموثقة ولقطات الشاشة ستحل محلها بمجرد توفرها.",
-      items: [
-        { band: "7.5", skill: "IELTS Overall", note: "بيانات مؤقتة — استبدلها بدرجة حقيقية." },
-        { band: "8.0", skill: "IELTS Reading", note: "بيانات مؤقتة — استبدلها بدرجة حقيقية." },
-        { band: "7.0", skill: "IELTS Speaking", note: "بيانات مؤقتة — استبدلها بدرجة حقيقية." },
-        { band: "6.5", skill: "IELTS Writing", note: "بيانات مؤقتة — استبدلها بدرجة حقيقية." },
-      ],
+      desc: "نتائج حقيقية موثقة لطلابنا من نماذج الشهادات الرسمية مباشرة.",
       galleryLabel: "تقرير نتائج موثقة",
       gallerySub: "لقطات نتائج الطلاب",
       reportCaption: "تقرير نتيجة · {n}",
-      over9: "/ 9.0",
     },
     test: {
       eyebrow: "تفاعلي",
