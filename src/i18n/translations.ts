@@ -103,14 +103,11 @@ export interface Translation {
     eyebrow: string;
     title1: string;
     titleEm: string;
-    noteTitle: string;
-    noteBody: string;
     realReviewsTitle: string;
     realReviewsBody: string;
     realReviewsCta: string;
     introLectureTitle: string;
     introLectureCta: string;
-    items: { quote: string; name: string; score: string }[];
   };
   resources: {
     eyebrow: string;
@@ -433,31 +430,11 @@ export const translations: Record<Lang, Translation> = {
       eyebrow: "Success Stories",
       title1: "They did the work.",
       titleEm: "The scores followed.",
-      noteTitle: "Authenticity over numbers",
-      noteBody:
-        "Quotes shown here are placeholders representing real student journeys. Verified testimonials are being published — and every achievement came from real effort by the team and the trainees together.",
       realReviewsTitle: "Real reviews, straight from our students",
       realReviewsBody: "See the feedback students share about our courses — directly on our Facebook page.",
       realReviewsCta: "Read Real Reviews",
       introLectureTitle: "Watch the introductory lecture",
       introLectureCta: "Watch on Facebook",
-      items: [
-        {
-          quote: "I finally understood what I was doing wrong in Writing. Within weeks my Task 2 structure completely changed.",
-          name: "Student Name",
-          score: "6.0 → 7.5",
-        },
-        {
-          quote: "Speaking was terrifying for me. Massoud's method made it feel like a conversation, not an interrogation.",
-          name: "Student Name",
-          score: "5.5 → 7.0",
-        },
-        {
-          quote: "The feedback was the game changer. Every correction came with a reason and a fix, not just a red mark.",
-          name: "Student Name",
-          score: "6.0 → 7.0",
-        },
-      ],
     },
     resources: {
       eyebrow: "Resources",
@@ -832,31 +809,11 @@ export const translations: Record<Lang, Translation> = {
       eyebrow: "قصص نجاح",
       title1: "هم بذلوا المجهود.",
       titleEm: "والنتائج جاءت.",
-      noteTitle: "الأصالة قبل الأرقام",
-      noteBody:
-        "العبارات المعروضة هنا بيانات مؤقتة تمثل رحلات طلاب حقيقية. التوصيات المؤكدة تُنشر حالياً — وكل إنجاز جاء بمجهود حقيقي من فريق العمل والمتدربين معاً.",
       realReviewsTitle: "آراء حقيقية مباشرة من طلابنا",
       realReviewsBody: "شاهد الآراء التي يشاركها الطلاب عن كورساتنا — مباشرة على صفحتنا على فيسبوك.",
       realReviewsCta: "شاهد الآراء الحقيقية",
       introLectureTitle: "شاهد المحاضرة التعريفية",
       introLectureCta: "شاهد على فيسبوك",
-      items: [
-        {
-          quote: "أخيراً فهمت ما كنت أخطئ فيه في الكتابة. خلال أسابيع تغيّر هيكل Task 2 تماماً.",
-          name: "اسم الطالب",
-          score: "6.0 ← 7.5",
-        },
-        {
-          quote: "التحدث كان يرعبني. طريقة مسعود جعلته محادثة وليس استجواباً.",
-          name: "اسم الطالب",
-          score: "5.5 ← 7.0",
-        },
-        {
-          quote: "الملاحظات كانت نقطة التحول. كل تصحيح جاء بسبب وحل، لا مجرد علامة حمراء.",
-          name: "اسم الطالب",
-          score: "6.0 ← 7.0",
-        },
-      ],
     },
     resources: {
       eyebrow: "الموارد",
